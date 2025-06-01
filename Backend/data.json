@@ -1,0 +1,178 @@
+{
+        "intents": [
+  {
+    "tag": "greeting",
+    "patterns": ["Hi"],
+    "responses": ["Hello! How can I assist you with your health today?"],
+    "context": [""]
+  },
+  {
+    "tag": "greeting_2",
+    "patterns": ["Hello"],
+    "responses": ["Hi there! I'm your healthcare assistant. What can I help you with?"],
+    "context": [""]
+  },
+  {
+    "tag": "greeting_1",
+    "patterns": ["Good day"],
+    "responses": ["Greetings! Need medical guidance? I'm here to help."],
+    "context": [""]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["By"],
+    "responses": ["By...! Take care! Stay healthy."],
+    "context": [""]
+  },
+  {
+    "tag": "No",
+    "patterns": ["No"],
+    "responses": ["Ok! how can help you."],
+    "context": [""]
+  },
+  {
+    "tag": "goodbye_2",
+    "patterns": ["see you later"],
+    "responses": ["See you later. Wishing you good health!"],
+    "context": [""]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks"],
+    "responses": ["You're welcome! Let me know if you need health tips ."],
+    "context": [""]
+  },
+  {
+    "tag": "thanks_1",
+    "patterns": ["Thanks a lot"],
+    "responses": ["You're welcome! Let me know if you have any stress ,depressed or anxiety ."],
+    "context": [""]
+  },
+  {
+    "tag": "thanks_2",
+    "patterns": ["Thank you"],
+    "responses": ["Glad I could help! Stay healthy."],
+    "context": [""]
+  },
+  {
+    "tag": "ok",
+    "patterns": ["ok"],
+    "responses": ["Would you like to book an appointment?"],
+    "context": [""]
+  },
+  {
+    "tag": "headache",
+    "patterns": ["i have a headache","headache"],
+    "responses": ["To ease a headache, drink ginger tea, apply peppermint oil to your temples, and make sure you stay well-hydrated."],
+    "context": [""]
+  },
+  {
+    "tag": "stomach",
+    "patterns": ["my stomach hurts","stomach"],
+    "responses": ["If your stomach hurts, try sipping ginger or peppermint tea, place a warm compress on your belly, and stick to soft foods like bananas and rice."],
+    "context": [""]
+  },
+  {
+    "tag": "cough",
+    "patterns": ["i have a cough","cough"],
+    "responses": ["For a cough, drink warm water with honey, breathe in steam to loosen mucus, and have turmeric milk to soothe your throat."],
+    "context": [""]
+  },
+  {
+    "tag": "fever",
+    "patterns": ["i have a fever?","fever"],
+    "responses": ["To reduce fever, drink plenty of fluids like coconut water or herbal tea, use a cold cloth on your forehead, and sip tulsi tea."],
+    "context": [""]
+  },
+  {
+    "tag": "sore_throat",
+    "patterns": ["i have a sore throat","sore_throat"],
+    "responses": ["A sore throat can feel better with saltwater gargles, warm honey drinks, and soothing ginger tea."],
+    "context": [""]
+  },
+  {
+    "tag": "runny nose",
+    "patterns": ["i have a runny nose","runny nose"],
+    "responses": [" For a runny nose, inhale steam, drink lots of water to thin mucus, and eat mildly spicy food to clear your sinuses."],
+    "context": [""]
+  },
+  {
+    "tag": "dizzy",
+    "patterns": ["i feeling dizzy","dizzy"],
+    "responses": ["When feeling dizzy, sit or lie down right away, drink water, and sip ginger tea if you also feel nauseous."],
+    "context": [""]
+  },
+  {
+    "tag": "appointment_booking",
+    "patterns": ["yes book an appoinment","yes appoinment"],
+    "responses": ["Sure! Where do you live? Please provide your city."],
+    "context": ["awaiting_location"]
+  },
+  {
+    "tag": "provide_location_1",
+    "patterns": ["Badlapur"],
+    "responses": ["Here are some best doctors near you:\n\n1. Dr. Pramod Kamble - Shivaji Chouk, near Balvikas School, Badlapur(E), 521403\n\n2. Dr. Rajesh Varma - Near MJ School, Gaodevi Road, Badlapur(E), 421503\n\n3. Dr. Harsh Patel - Hendre Pada, Barbi Dam road, Badlapur(W), 421503\n\n4. Dr. Ninad Muley - Rahatoli, Badlapur(W), 421503\n\n5. Dr. Vivek Kumar - Badlapur Village, Badlapur(W), 421503"],
+    "context": [""]
+  },
+  {
+    "tag": "provide_location_2",
+    "patterns": ["Bhandup"],
+    "responses": ["Here are some best doctors near you:\n\n1. Dr. Badwaik Hospital - Lal Bahadur Shastri Marg, opposite Jain Mandir, Bhandup (W), 400078\n\n2. Dr. Rajesh Kher's Clinic - Shop no 15A, Anil & Anant Estate, Bhandup West, 400078\n\n3. Dr. Manohar Rathod - Rathod Nursing Home & ICCU, Shiv Sagar Complex, Bhandup West, 400078\n\n4. Dr. Ninad Muley - Rahatoli, Bhandup West, 400078\n\n5. Dr. B. R. Kadam's Clinic - Wing-C, S Pratap Singh Rd, Bhandup, 400078"],
+    "context": [""]
+  },
+  {
+    "tag": "provide_location_3",
+    "patterns": ["Karjat"],
+    "responses": ["Here are some best doctors near you:\n\n1. Dr. Aarti Deshmukh - Kadav Road, Karjat, 410201\n\n2. Dr. Sameer Patil - Dhodani Village, Karjat, 410201\n\n3. Dr. Neha Joshi - Matheran Road, Karjat, 410201\n\n4. Dr. Rajesh Pawar - Neral Phata, Karjat, 410201"],
+    "context": [""]
+  },
+  {
+    "tag": "health",
+    "patterns": [" yes give me some health tips","health"],
+    "responses": ["Maintain a balanced diet, stay hydrated, get 7–8 hours of sleep, and exercise regularly to support overall health."],
+    "context": [""]    
+  },
+  {
+    "tag": "healthy",
+    "patterns": ["yes how can i stay healthy?","healthy"],
+    "responses": ["Eat nutritious food, avoid processed items, stay physically active, manage stress, and go for regular checkups"],
+    "context": [""]
+  },
+  {
+    "tag": "fit",
+    "patterns": ["Yes tips for staying fit","fit"],
+    "responses": ["Include cardio and strength training in your routine, stay consistent, eat protein-rich meals, and rest properly"],
+    "context": [""]
+  },
+  {
+    "tag": "diet",
+    "patterns": ["What should I eat for a balanced diet?","diet"],
+    "responses": ["A balanced diet includes fruits, vegetables, whole grains, lean proteins, and healthy fats. Drink plenty of water too!"],
+    "context": [""]    
+  },
+  {
+    "tag": "depressed",
+    "patterns": ["yes i am  depressed","depressed"],
+    "responses": ["You're not alone. It might help to talk to a mental health professional."],
+    "context": [""]    
+  },
+  {
+    "tag": "anxiety",
+    "patterns": ["yes i have anxiety","anxiety"],
+    "responses": ["If you're struggling, please reach out to a counselor or therapist for support. Your mental health matters."],
+    "context": [""]    
+  },
+  {
+    "tag": "stress",
+    "patterns": ["yes i have stress?","stress"],
+    "responses": ["Deep breathing, regular sleep, and staying connected with loved ones can help reduce stress."],
+    "context": [""]   
+  },
+{
+  "tag": "negative",
+  "patterns": ["How do I deal with negative thoughts?","negative thoughts"],
+  "responses": ["Challenge them with positive affirmations, write in a journal, or speak with a therapist for deeper support."],
+  "context": [""] 
+}
+]
+}
