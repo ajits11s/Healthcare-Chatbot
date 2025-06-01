@@ -80,7 +80,7 @@ Project developed by a passionate group of final-year engineering students:
 ## 📷 Screenshots
 
 *📸 Insert interface screenshots here for better presentation*
-![image alt]([image_url](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png))
+![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
 
 ---
 
