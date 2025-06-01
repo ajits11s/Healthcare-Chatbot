@@ -23,18 +23,7 @@ Backend: Python (Flask)
 
 Tools: VS Code, GitHub, Flask Server
 
-📁 Folder Structure
-csharp
-Copy
-Edit
-Healthcare-Chatbot/
-│
-├── static/             # Static files: CSS, JS, images
-├── templates/          # HTML templates (Jinja2)
-├── app.py              # Main Flask application
-├── chatbot_model.py    # Chat logic (ML/NLP if applicable)
-├── requirements.txt    # Project dependencies
-└── README.md           # Project documentation
+
 🚀 How to Run Locally
 1. Clone the Repository
 bash
