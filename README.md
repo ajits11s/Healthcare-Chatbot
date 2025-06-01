@@ -81,12 +81,16 @@ Project developed by a passionate group of final-year engineering students:
 
 *1.Home*
 ![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/HOME.png)
+
 *1.Features*
 ![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/FEATURES.png)
+
 *1.About*
 ![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/ABOUT.png)
+
 *1.Chatbot*
 ![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/bot.png)
+
 *1.Chatbot*
 ![image alt](https://github.com/ajits11s/Healthcare-Chatbot/blob/64ca15b7433aaef93fdcc6ebea2e8c7b9a57afb5/bot1.png)
 
@@ -104,5 +108,5 @@ Project developed by a passionate group of final-year engineering students:
 
 If you need the **complete project report** or want **step-by-step help running the project**, feel free to **contact me**:
 
-📧 **Email**: *your_email@example.com*  
-📱 **WhatsApp/Phone (optional)**: *+91-XXXXXXXXXX*
+📧 **Email**: *ajitgawade09987@gmail.com*  
+
