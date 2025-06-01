@@ -11,7 +11,7 @@ A final-year engineering project built to offer **24x7 virtual healthcare suppor
 - 🤖 **Symptom Checker** – Identify common health issues via chat  
 - 🌿 **Home Remedies** – Natural solutions for minor ailments  
 - 👨‍⚕️ **Doctor Recommendations** – Suggests professional consultation based on symptoms  
-- 🌗 **Light/Dark Mode Toggle** – Enhances user experience  
+- 🧘‍♀️ **Reduce Stress & Depression** – Helps Reduce Stress & Supports Mental Well-being (e.g., stress & depression tips)  
 - 💬 **Chatbot Interface** – Easy-to-use and conversational  
 - 💻 **Modern Web UI** – Built using HTML, CSS, and JavaScript  
 
@@ -62,10 +62,9 @@ Then open your browser and visit:
 
 Project developed by a passionate group of final-year engineering students:
 
-- **Your Name**  
-- **Friend 1**  
-- **Friend 2**  
-- **Friend 3**
+- **Ajit Gawade**  
+- **Yash Dhuri**  
+- **Utkarsha Kolambe**  
 
 ---
 
