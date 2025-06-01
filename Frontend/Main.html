@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HealthCare Chatbot</title>
+  </head>
+  <body>
+    <script>
+  const user = localStorage.getItem("loggedInUser");
+  if (!user) {
+    alert("Please log in first.");
+    window.location.href = "index.html"; // Redirect to login
+  }
+</script>
+
+<header>
+      <nav class="section__container nav__container">
+        <div class="nav__logo">Health<span>Bot</span></div>
+        <ul class="nav__links">
+         <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About Us</a></li>
+          <li class="link"><a href="#service">Features</a></li>
+          <li class="link"><a href="#pages">Pages</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+        </ul>
+        <button class="btn" onclick="logout()">Logout</button>
+
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__content">
+          <h1>Welcome to HealthBot!</h1>
+          <p>
+            Hello! I’m your virtual health assistant, here to guide you with compassionate care and personalized support. Whether you need to schedule an appointment, get health information, or have questions answered, I’m here to make your journey smooth and stress-free. How can I assist you today?
+          </p>
+          <button class="btn"><a href="http://127.0.0.1:5000">Let's Chat</a></button>
+        </div>
+        <div class="header__form">
+  <img src="assets/new.png" alt="Appointment Illustration" style="width: 100%; border-radius: 10px;" />
+</div>
+      </div>
+    </header>
+
+    <section class="section__container service__container" id="service">
+      <div class="service__header">
+        <div class="service__header__content">
+          <h2 class="section__header">Our Special Features</h2>
+          <p>
+            Beyond simply providing medical care, our commitment lies in delivering unparalleled feature tailored to your unique needs.
+          </p>
+        
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-time-line"></i></span>
+          <h4>24/7 Availability</h4>
+          <p>
+            Our AI chatbot is available around the clock to answer your health-related queries.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-lock-line"></i></span>
+          <h4>Secure and Confidential</h4>
+          <p>
+            Your health data is kept secure and confidential, ensuring your privacy
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-capsule-line"></i></span>
+          <h4>Home Remedies</h4>
+          <p>
+           Chat with Medimate to explore a world of medicine and home remedies for a healthier life.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="section__container about__container" id="about">
+      <div class="about__content">
+        <h2 class="section__header">About Us</h2>
+        <p>
+          Healthcare Chatbot is an AI-powered virtual assistant designed to help users access valuable health-related information quickly and easily. Whether you need health tips, guidance on reducing mental stress and anxiety, diet suggestions, or information about nearby doctors, our chatbot provides instant, reliable answers.
+        </p>
+        <p>
+          The chatbot offers 24/7 assistance and can help you find healthcare professionals by providing doctor names and addresses, recommend diet tips tailored to your needs, and offer practical advice to support mental well-being. It’s a trusted companion for anyone seeking quick, actionable health guidance.
+        </p>
+        <p>
+          With a simple and user-friendly interface, the chatbot ensures a seamless experience, helping you take control of your health and well-being at any time.
+        </p>
+      </div>
+      <div class="about__image">
+        <img src="assets/Chatbot.png" alt="about" />
+      </div>
+    </section>
+
+    <section class="section__container why__container" id="blog">
+      <div class="why__image">
+        <img src="assets/S.jpg" alt="why choose us" />
+      </div>
+      <div class="why__content">
+        <h2 class="section__header">Why Choose Us</h2>
+        <p>
+          A healthcare chatbot offers smart, instant, and reliable support — anytime, anywhere. Here’s why it’s a game-changer for user care:
+        </p>
+        <div class="why__grid">
+          <span><i class="ri-heart-pulse-line"></i></span>
+          <div>
+            <h4>Understand Your Symptoms</h4>
+            <p>
+              Just tell us how you're feeling, and our smart chatbot helps identify possible causes and guide your next steps.
+            </p>
+          </div>
+          <span><i class="ri-emotion-happy-line"></i></span>
+          <div>
+            <h4>Reduce Stress & Anxiety</h4>
+            <p>
+              Health worries can be overwhelming. Our chatbot offers friendly, calming support to ease your mind and provide helpful advice.
+            </p>
+          </div>
+          <span><i class="ri-user-settings-line"></i></span>
+          <div>
+            <h4>Personalized Experience</h4>
+            <p>
+              Chatbots can tailor conversations to individual needs, making each interaction feel more relevant and supportive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container doctors__container" id="pages">
+      <div class="doctors__header">
+        <div class="doctors__header__content">
+          <h2 class="section__header">Meet Our Team</h2>
+          <p>
+            We take pride in our exceptional team.
+          </p>
+        </div>
+      </div>
+      <div class="doctors__grid">
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/Yash.jpg" alt="doctor" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Yash Dhuri</h4>
+        </div>
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/Ajit.jpg" alt="doctor" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Ajit Gawade</h4>
+          <p></p>
+        </div>
+        <div class="doctors__card">
+          <div class="doctors__card__image">
+            <img src="assets/U.jpg" alt="doctor" />
+            <div class="doctors__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+          <h4>Utkarsha Kolambe</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+  <div class="section__container footer__container">
+    <div class="footer__col footer__col--center">
+      <h4>Contact Us</h4>
+      <p>
+        <i class="ri-group-fill"></i> Our Team
+      </p>
+      <p><i class="ri-mail-fill"></i> support@care.com</p>
+      <p><i class="ri-phone-fill"></i>+91-9653XXXXX8</p>
+    </div>
+  </div>
+  <div class="footer__bar">
+    <div class="footer__bar__content">
+      <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+      <div class="footer__socials">
+        <span><i class="ri-instagram-line"></i></span>
+        <span><i class="ri-facebook-fill"></i></span>
+        <span><i class="ri-heart-fill"></i></span>
+        <span><i class="ri-twitter-fill"></i></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script>
+  function logout() {
+    localStorage.removeItem("loggedInUser");
+    window.location.href = "index.html"; // Redirect back to login
+  }
+</script>
+</body>
+</html>
+
